@@ -93,7 +93,7 @@ const Step3 = ({ navigation }) => {
                             }}>
                                 <Image source={Clx} />
                             </Pressable>
-                            <Text style={{ fontSize: 22 }}>Thêm dịch vụ</Text>
+                            <Text style={{ fontSize: 22 }}>Thêm loại phòng</Text>
                             <Pressable onPress={() => {
                                 dv.name && dv.cost && setDs([...ds, dv])
                                 setModalVisible(false)
@@ -103,8 +103,8 @@ const Step3 = ({ navigation }) => {
                         </View>
                         <View>
                             <View style={{ marginBottom: 20 }}>
-                                <Text style={styles.text}>Tên dịch vụ</Text>
-                                <TextInput style={styles.input} placeholder='Tên dịch vụ' value={dv.name} onChangeText={(name) => {
+                                <Text style={styles.text}>Tên loại phòng</Text>
+                                <TextInput style={styles.input} placeholder='Tên loại phòng' value={dv.name} onChangeText={(name) => {
                                     setDv({ ...dv, name: name })
                                 }} />
                             </View>
