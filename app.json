@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "my-app",
+    "name": "TinTro",
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/TinTro.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,13 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/TinTro.png",
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.dangtu2001.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1c7e17ca-3cf2-4dd0-a19b-0134be7bcf37"
+      }
     }
   }
 }
