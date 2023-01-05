@@ -6,7 +6,6 @@ import Ab from '../../assets/images/arrow_back.png'
 import Err from '../../assets/images/error.png'
 import Cl from '../../assets/images/closer.png'
 import Clx from '../../assets/images/close.png'
-import Chh from '../../assets/images/change_history.png'
 import Ch from '../../assets/images/check.png'
 const Step3 = ({ navigation }) => {
     const [ds, setDs] = useState([])
